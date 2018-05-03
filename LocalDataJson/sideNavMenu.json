@@ -1,0 +1,68 @@
+{
+  "sideNavMenu": [
+    {
+      "menuName":"Flexiload",
+      "icon":"fab fa-nintendo-switch",
+      "subMenu" :[
+        {
+          "name":"Send Flexiload",
+          "href": "#"
+        },
+        {
+          "name":"Internet Package",
+          "href": "#"
+        },
+        {
+          "name":"History",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "menuName":"Mobile Banking",
+      "icon":"fas fa-phone-square",
+      "subMenu" :[
+        {
+          "name":"bKash",
+          "href": "#"
+        },
+        {
+          "name":"Rocket",
+          "href": "#"
+        },
+        {
+          "name":"History",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "menuName":"Reseller",
+      "icon":"fas fa-user-circle",
+      "subMenu" :[
+        {
+          "name":"Add Reseller",
+          "href": "#"
+        },
+        {
+          "name":"Show Reseller",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "menuName":"Payment",
+      "icon":"fas fa-credit-card",
+      "subMenu" :[
+        {
+          "name":"Add Payment",
+          "href": "#"
+        },
+        {
+          "name":"Payment History",
+          "href": "#"
+        }
+      ]
+    }
+  ]
+}

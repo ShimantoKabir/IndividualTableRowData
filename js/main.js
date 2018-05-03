@@ -190,7 +190,7 @@ $(document).ready(function () {
                 }
 
                 $("#"+tableId+" tbody tr").hide();
-                $("#index").text("Showing "+(currentPage * perPage)+" to "+((currentPage + 1) * perPage)+" of "+numRows+" entries");
+                $("#index").text("Showing : "+(currentPage * perPage)+" - "+((currentPage + 1) * perPage)+" | "+numRows+"");
                 $("#"+tableId+" tbody tr").slice(currentPage * perPage,(currentPage + 1) * perPage).show();
             }
 

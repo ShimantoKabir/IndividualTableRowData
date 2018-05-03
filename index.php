@@ -50,7 +50,7 @@
 
         <div class="flexi_load_history-tbl .table-responsive" >
             <div class="container" >
-                <div class="row" >
+                <div class="row align-items-center" >
                     <div class="col-lg-4" >
                         <form class="form-inline">
                             <label>Search : </label> &nbsp;
@@ -69,8 +69,8 @@
                             </select>&nbsp;
                         </form>
                     </div>
-                    <div class="col align-items-center" >
-                        <p id="index" >Showing : 1 - 10 | 57</p>
+                    <div class="col-lg-4" >
+                        <h7 id="index" >Showing : 1 - 10 | 57</h7>
                     </div>
                 </div>
 
@@ -644,14 +644,15 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
             <div class="container" >
-                <div class="row alert alert-primary" >
+                <div class="row" >
                     <div class="col-sm-10" >
-                        <h4 class="" >Selected Data</h4>
+                        <h5 class="" >Selected Data</h5>
                     </div>
                     <div class="col-sm-2" >
                         <span class="close"><i class="far fa-times-circle"></i></span>
                     </div>
                 </div>
+                <hr>
                 <div class="row" >
                     <div class="col-sm-12">
                         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" id="show_selected_data_in_form" ></form>
